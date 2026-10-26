@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" class="w-full h-full">
+  <defs>
+    <linearGradient id="skyVill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0094D6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0094D6" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="bldgVill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#skyVill)"/>
+  <!-- Ground -->
+  <rect y="320" width="600" height="60" fill="#e2e8f0"/>
+  <!-- Background wing -->
+  <rect x="90" y="110" width="140" height="210" rx="6" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="370" y="130" width="150" height="190" rx="6" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Main Tower -->
+  <rect x="180" y="60" width="240" height="260" rx="8" fill="url(#bldgVill)" stroke="#0094D6" stroke-width="3"/>
+  <!-- Top Penthouse & Helipad -->
+  <rect x="230" y="35" width="140" height="25" rx="4" fill="#0094D6"/>
+  <circle cx="300" cy="47" r="8" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="300" y="51" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">H</text>
+  <!-- Red Cross Emblem -->
+  <rect x="285" y="80" width="30" height="10" rx="2" fill="#D32577"/>
+  <rect x="295" y="70" width="10" height="30" rx="2" fill="#D32577"/>
+  <text x="300" y="125" font-family="sans-serif" font-size="14" font-weight="900" fill="#0f172a" text-anchor="middle">SILOAM HOSPITALS</text>
+  <text x="300" y="140" font-family="sans-serif" font-size="10" font-weight="bold" fill="#0094D6" text-anchor="middle">LIPPO VILLAGE • 400 BEDS</text>
+  <!-- Glass Window Ribbons -->
+  <g fill="#38bdf8" opacity="0.75">
+    <rect x="205" y="155" width="190" height="16" rx="2"/>
+    <rect x="205" y="185" width="190" height="16" rx="2"/>
+    <rect x="205" y="215" width="190" height="16" rx="2"/>
+    <rect x="205" y="245" width="190" height="16" rx="2"/>
+    <rect x="205" y="275" width="190" height="16" rx="2"/>
+  </g>
+  <!-- Entrance Canopy -->
+  <polygon points="240,320 360,320 380,295 220,295" fill="#D32577" opacity="0.9"/>
+  <text x="300" y="312" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">EMERGENCY &amp; ADMISSION</text>
+  <!-- Trees / Greenery -->
+  <circle cx="140" cy="315" r="18" fill="#94C13D"/>
+  <circle cx="165" cy="320" r="14" fill="#6fa01e"/>
+  <circle cx="440" cy="315" r="18" fill="#94C13D"/>
+  <circle cx="465" cy="320" r="14" fill="#6fa01e"/>
+</svg>
